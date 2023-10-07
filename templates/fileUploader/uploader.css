@@ -1,0 +1,32 @@
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border: 2px dashed #3498db;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.selected-file {
+    margin-top: 10px;
+}
+
+.file-upload-container:hover {
+    border-color: #2980b9;
+}
